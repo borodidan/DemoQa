@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="XMLFile" verbose="1">
+	<test name="TestSessionxml">
+		<classes>
+			<class name="DemoPro">
+				<methods>
+					<exclude name="login" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

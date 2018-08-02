@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XMLFile]">
+  <parameter name="app" value="automationpractice"/>
+  <parameter name="platform" value="mobileEmulator"/>
+  <test name="TestSessionxml(failed)">
+    <classes>
+      <class name="test.sv.ContactsTest">
+        <methods>
+          <include name="tesContactSV"/>
+          <include name="tearDown"/>
+          <include name="initia"/>
+          <include name="getParam"/>
+        </methods>
+      </class> <!-- test.sv.ContactsTest -->
+    </classes>
+  </test> <!-- TestSessionxml(failed) -->
+</suite> <!-- Failed suite [XMLFile] -->

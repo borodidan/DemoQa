@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="15301" started-at="2018-07-27T11:31:47Z" finished-at="2018-07-27T11:32:03Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15301" started-at="2018-07-27T11:31:47Z" finished-at="2018-07-27T11:32:03Z">
+      <class name="test.api.BasicAuthenticationTest">
+        <test-method status="PASS" signature="noAuthentication()[pri:0, instance:test.api.BasicAuthenticationTest@366e2eef]" name="noAuthentication" duration-ms="1641" started-at="2018-07-27T14:31:47Z" finished-at="2018-07-27T14:31:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noAuthentication -->
+      </class> <!-- test.api.BasicAuthenticationTest -->
+      <class name="test.api.GetUsersTestNG">
+        <test-method status="PASS" signature="GetTotal()[pri:0, instance:test.api.GetUsersTestNG@35fb3008]" name="GetTotal" duration-ms="4861" started-at="2018-07-27T14:31:55Z" finished-at="2018-07-27T14:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTotal -->
+        <test-method status="PASS" signature="PostNew()[pri:0, instance:test.api.GetUsersTestNG@35fb3008]" name="PostNew" duration-ms="312" started-at="2018-07-27T14:32:00Z" finished-at="2018-07-27T14:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostNew -->
+        <test-method status="PASS" signature="get()[pri:0, instance:test.api.GetUsersTestNG@35fb3008]" name="get" duration-ms="359" started-at="2018-07-27T14:32:00Z" finished-at="2018-07-27T14:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method status="PASS" signature="getUsersRestAssured()[pri:0, instance:test.api.GetUsersTestNG@35fb3008]" name="getUsersRestAssured" duration-ms="365" started-at="2018-07-27T14:32:01Z" finished-at="2018-07-27T14:32:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersRestAssured -->
+      </class> <!-- test.api.GetUsersTestNG -->
+      <class name="test.api.CreateUserTest">
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="1955" started-at="2018-07-27T14:31:49Z" data-provider="New Users" finished-at="2018-07-27T14:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ion Creanga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[writer]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="328" started-at="2018-07-27T14:31:51Z" data-provider="New Users" finished-at="2018-07-27T14:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mihai Eminescu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="359" started-at="2018-07-27T14:31:51Z" data-provider="New Users" finished-at="2018-07-27T14:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Simona Halep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tennis player]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="329" started-at="2018-07-27T14:31:52Z" data-provider="New Users" finished-at="2018-07-27T14:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Klaus Iohannis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[president]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="374" started-at="2018-07-27T14:31:52Z" data-provider="New Users" finished-at="2018-07-27T14:31:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dan B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[employ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="360" started-at="2018-07-27T14:31:52Z" data-provider="New Users" finished-at="2018-07-27T14:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adasdadd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="359" started-at="2018-07-27T14:31:53Z" data-provider="New Users" finished-at="2018-07-27T14:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="344" started-at="2018-07-27T14:31:53Z" data-provider="New Users" finished-at="2018-07-27T14:31:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@@##<>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ci!@$#%%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="423" started-at="2018-07-27T14:31:53Z" data-provider="New Users" finished-at="2018-07-27T14:31:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lalalalalalalalalala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tltltltltl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="359" started-at="2018-07-27T14:31:54Z" data-provider="New Users" finished-at="2018-07-27T14:31:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lalalalalalalalalala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alalalalalalalalalalalalalalalalalalalalalalal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+        <test-method status="PASS" signature="runTests(java.lang.String, java.lang.String, int)[pri:0, instance:test.api.CreateUserTest@67b6d4ae]" name="runTests" duration-ms="547" started-at="2018-07-27T14:31:54Z" data-provider="New Users" finished-at="2018-07-27T14:31:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#></]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdasdas\//&&&]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTests -->
+      </class> <!-- test.api.CreateUserTest -->
+      <class name="test.api.GetUsersTest">
+        <test-method status="PASS" signature="GetUsers()[pri:0, instance:test.api.GetUsersTest@6be46e8f]" name="GetUsers" duration-ms="328" started-at="2018-07-27T14:31:55Z" finished-at="2018-07-27T14:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsers -->
+      </class> <!-- test.api.GetUsersTest -->
+      <class name="test.api.SuccesfullAuthenticationTest">
+        <test-method status="PASS" signature="succesAuthentication()[pri:0, instance:test.api.SuccesfullAuthenticationTest@34b7bfc0]" name="succesAuthentication" duration-ms="1698" started-at="2018-07-27T14:32:01Z" finished-at="2018-07-27T14:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesAuthentication -->
+      </class> <!-- test.api.SuccesfullAuthenticationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8577" started-at="2018-08-02T13:40:24Z" finished-at="2018-08-02T13:40:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8577" started-at="2018-08-02T13:40:24Z" finished-at="2018-08-02T13:40:33Z">
+      <class name="test.Tabs3Test">
+        <test-method status="PASS" signature="initia()[pri:0, instance:test.Tabs3Test@4f933fd1]" name="initia" is-config="true" duration-ms="2414" started-at="2018-08-02T16:40:24Z" finished-at="2018-08-02T16:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initia -->
+        <test-method status="PASS" signature="tabs()[pri:0, instance:test.Tabs3Test@4f933fd1]" name="tabs" duration-ms="5527" started-at="2018-08-02T16:40:27Z" finished-at="2018-08-02T16:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tabs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.Tabs3Test@4f933fd1]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-08-02T16:40:32Z" finished-at="2018-08-02T16:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Tabs3Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="test.BaseTest">
+        <methods>
+          <include name="getParam"/>
+        </methods>
+      </class> <!-- test.BaseTest -->
+      <class name="test.api.BasicAuthenticationTest">
+        <methods>
+          <include name="noAuthentication"/>
+        </methods>
+      </class> <!-- test.api.BasicAuthenticationTest -->
+      <class name="test.automationPractice.LogInInvalidTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.automationPractice.LogInInvalidTest -->
+      <class name="test.automationPractice.LogInTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- test.automationPractice.LogInTest -->
+      <class name="test.api.GetUsersTest">
+        <methods>
+          <include name="GetUsers"/>
+        </methods>
+      </class> <!-- test.api.GetUsersTest -->
+      <class name="test.api.CreateUserTest">
+        <methods>
+          <include name="runTests"/>
+        </methods>
+      </class> <!-- test.api.CreateUserTest -->
+      <class name="test.automationPractice.SearchElementTest">
+        <methods>
+          <include name="testNet"/>
+        </methods>
+      </class> <!-- test.automationPractice.SearchElementTest -->
+      <class name="test.automationPractice.HomePageTest">
+        <methods>
+          <include name="testNet"/>
+        </methods>
+      </class> <!-- test.automationPractice.HomePageTest -->
+      <class name="test.sv.AboutUsTest">
+        <methods>
+          <include name="tesTwitterLink"/>
+        </methods>
+      </class> <!-- test.sv.AboutUsTest -->
+      <class name="test.sv.ContactCompleteFieldsTest">
+        <methods>
+          <include name="tesContactSV"/>
+        </methods>
+      </class> <!-- test.sv.ContactCompleteFieldsTest -->
+      <class name="test.sv.ContactsTest">
+        <methods>
+          <include name="tesContactSV"/>
+        </methods>
+      </class> <!-- test.sv.ContactsTest -->
+      <class name="test.sv.SearchTest">
+        <methods>
+          <include name="tesContactSV"/>
+        </methods>
+      </class> <!-- test.sv.SearchTest -->
+      <class name="test.api.SuccesfullAuthenticationTest">
+        <methods>
+          <include name="succesAuthentication"/>
+        </methods>
+      </class> <!-- test.api.SuccesfullAuthenticationTest -->
+      <class name="test.automationPractice.SearchDropTest">
+        <methods>
+          <include name="testNet"/>
+        </methods>
+      </class> <!-- test.automationPractice.SearchDropTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
